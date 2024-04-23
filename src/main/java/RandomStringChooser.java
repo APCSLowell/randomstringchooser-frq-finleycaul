@@ -1,12 +1,12 @@
 import java.util.*;
 public class RandomStringChooser
 {
-  private ArrayList<string> words;
+  private ArrayList<String> words;
   public RandomStringChooser(String [] inputwords){
     //initializing
     words = newArrayList<>();
-    for(String word : inputWords){
-      words.add(word);
+    for(String singleWord : inputWords){
+      words.add(singleWord);
     }
 }
   public String getNext(){
